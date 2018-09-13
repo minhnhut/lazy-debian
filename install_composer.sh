@@ -9,6 +9,6 @@ then
     rm composer-setup.php
     exit 1
 fi
-php composer-setup.php --quiet
+php composer-setup.php --install-dir=bin --filename=composer --quiet
 RESULT=$?
 rm composer-setup.php
